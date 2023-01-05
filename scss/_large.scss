@@ -1,0 +1,166 @@
+@media (min-width: 992px) {
+	//NAVIGATIOM
+	.hamburger {
+		display: none;
+	}
+	.nav-desktop {
+		display: block;
+	}
+	.header {
+		&__hero-text {
+			height: 85%;
+			h1 {
+				font-size: 8rem;
+			}
+			p {
+				font-size: 5rem;
+			}
+		}
+	}
+	//MAIN
+	.proposition {
+		.cards {
+			flex-direction: row;
+			&__box {
+				min-width: 350px;
+				&:hover .cards__front {
+					transform: rotateY(-180deg);
+					opacity: 0;
+				}
+				&:hover .cards__info {
+					opacity: 1;
+					transform: rotateY(0);
+				}
+			}
+			&__info {
+				transition: transform 1s, opacity 1s;
+				opacity: 0;
+				transform: rotateY(-180deg);
+				&-title {
+					font-size: 2.2rem;
+				}
+				&-text {
+					font-size: 1.8rem;
+				}
+				&-button {
+					font-size: 1.6rem;
+				}
+			}
+			&__front {
+				opacity: 1;
+				transition: transform 1s, opacity 1s;
+				&-title {
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+	.contact {
+		.social-media {
+			&__facebook {
+				width: 5rem;
+				height: 5rem;
+				margin: auto 3rem;
+			}
+			&__instagram {
+				width: 5rem;
+				height: 5rem;
+				margin: auto 3rem;
+			}
+		}
+		.links-box {
+			&__item {
+				&-icon {
+					width: 2.5rem;
+					height: 2.5rem;
+				}
+				&-text {
+					font-size: 2.5rem;
+				}
+			}
+		}
+	}
+	footer {
+		p {
+			font-size: 2rem;
+		}
+	}
+	//OFFER PAGE
+	.offer {
+		&__box {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 100%;
+			.map {
+				width: 50%;
+				iframe {
+					width: 100%;
+				}
+			}
+		}
+		&__img {
+			width: 50%;
+		}
+		.section-heading {
+			font-size: 3rem;
+			color: c.$black-color;
+			text-align: center;
+		}
+		&__text {
+			width: 50%;
+			margin-right: 4em;
+			p {
+				font-size: 2rem;
+				text-align: center;
+				padding-bottom: 2em;
+			}
+			ul {
+				font-size: 2rem;
+				padding-bottom: 2em;
+			}
+		}
+		&__details {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			&-item {
+				font-size: 2rem;
+				align-items: center;
+				a {
+					font-size: 2rem;
+				}
+			}
+			&-contact {
+				flex-direction: column;
+			}
+		}
+	}
+	//PRICES
+	.prices {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		&__box {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			flex-direction: column;
+			width: 370px;
+			height: 240px;
+			border: 1px solid c.$black-color;
+			margin: 1em;
+		}
+		&__title {
+			padding: 0.5em;
+			text-align: center;
+			font-size: 2.5rem;
+		}
+		&__cost {
+			padding: 0.5em;
+			text-align: center;
+			font-size: 5rem;
+		}
+	}
+}

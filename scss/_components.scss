@@ -4,11 +4,11 @@
 	max-width: 1200px;
 }
 .section-padding {
-	padding: 6em 2em;
+	padding: 2em 2em;
 }
 .section-heading {
 	position: relative;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	font-size: 3rem;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -18,7 +18,7 @@
 }
 .white-block {
 	position: absolute;
-	height: 40px;
+	height: 20px;
 	width: 60%;
 	background-color: c.$text-color;
 
@@ -35,7 +35,7 @@
 	}
 }
 
-.no-wrap{
+.no-wrap {
 	white-space: nowrap;
 }
 @media (min-width: 768px) {
@@ -44,7 +44,10 @@
 	}
 
 	.section-padding {
-		padding: 8em 2em;
+		padding: 4em 2em;
+	}
+	.white-block {
+		height: 40px;
 	}
 }
 
@@ -54,6 +57,6 @@
 	}
 
 	.section-padding {
-		padding: 10em 2em;
+		padding: 6em 2em;
 	}
 }

@@ -37,12 +37,12 @@
 }
 
 .section-padding {
-  padding: 6em 2em;
+  padding: 2em 2em;
 }
 
 .section-heading {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -53,7 +53,7 @@
 
 .white-block {
   position: absolute;
-  height: 40px;
+  height: 20px;
   width: 60%;
   background-color: rgb(255, 255, 255);
 }
@@ -77,7 +77,10 @@
     font-size: 3.6rem;
   }
   .section-padding {
-    padding: 8em 2em;
+    padding: 4em 2em;
+  }
+  .white-block {
+    height: 40px;
   }
 }
 @media (min-width: 992px) {
@@ -85,7 +88,7 @@
     font-size: 4.8rem;
   }
   .section-padding {
-    padding: 10em 2em;
+    padding: 6em 2em;
   }
 }
 *,
@@ -220,20 +223,20 @@ body {
   display: flex;
 }
 .nav-desktop .dropdown-desktop:hover .dropdown-desktop__item {
-  -webkit-animation: dropDownItemsAnimation 0.2s both;
-          animation: dropDownItemsAnimation 0.2s both;
+  -webkit-animation: dropDownItemsAnimation 0.1s both;
+          animation: dropDownItemsAnimation 0.1s both;
 }
 .nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(2) {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
 }
 .nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(3) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(4) {
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 .nav-desktop .dropdown-desktop__box {
   display: none;

@@ -15,10 +15,7 @@ const handleDropDown = () => {
 const handleNav = () => {
 	navMobile.classList.toggle('nav-mobile--active')
 	navButton.classList.toggle('is-active')
-
-	navButton.addEventListener('click', () => {
-		dropDown.classList.remove('dropdown-mobile__box--active')
-	})
+	
 	allNavItemsClick.forEach(item => {
 		item.addEventListener('click', () => {
 			navMobile.classList.remove('nav-mobile--active')
@@ -26,7 +23,9 @@ const handleNav = () => {
 			dropDown.classList.remove('dropdown-mobile__box--active')
 		})
 	})
-
+	navButton.addEventListener('click', () => {
+		dropDown.classList.remove('dropdown-mobile__box--active')
+	})
 	handleNavItemsAnimation()
 }
 

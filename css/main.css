@@ -376,6 +376,7 @@ body {
   position: relative;
   background-color: rgb(90, 90, 90);
   overflow: hidden;
+  width: 100%;
 }
 .contact-mobile {
   display: flex;
@@ -436,6 +437,12 @@ footer p {
   font-size: 1.3rem;
 }
 
+.offer {
+  overflow: hidden;
+}
+.offer__box {
+  width: 100%;
+}
 .offer__box .map {
   width: 100%;
 }
@@ -454,9 +461,6 @@ footer p {
   font-size: 2.2rem;
   color: rgb(15, 13, 13);
   text-align: center;
-}
-.offer__text {
-  padding: 0.5em;
 }
 .offer__text p {
   text-align: center;
@@ -483,7 +487,6 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
 }
 .offer__details-item img {
   filter: invert(95%) sepia(6%) saturate(1190%) hue-rotate(56deg) brightness(86%) contrast(89%);

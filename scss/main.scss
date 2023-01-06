@@ -303,7 +303,6 @@ body {
 	position: relative;
 	background-color: c.$section-secondary;
 	overflow: hidden;
-	width: 100%;
 	&-mobile {
 		display: flex;
 		justify-content: center;
@@ -370,7 +369,6 @@ footer {
 .offer {
 	overflow: hidden;
 	&__box {
-		width: 100%;
 		.map {
 			width: 100%;
 		}
@@ -390,6 +388,7 @@ footer {
 		text-align: center;
 	}
 	&__text {
+		padding: 0.5em;
 		p {
 			text-align: center;
 			padding-bottom: 1em;
@@ -403,9 +402,7 @@ footer {
 				padding-top: 0.2em;
 			}
 		}
-		.about-me {
-			text-align: justify;
-		}
+		
 	}
 	&__details {
 		display: flex;
@@ -415,7 +412,7 @@ footer {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			// padding: 1em;
+			padding: 1em;
 			img {
 				filter: invert(95%) sepia(6%) saturate(1190%) hue-rotate(56deg) brightness(86%) contrast(89%);
 				padding-right: 0.2em;

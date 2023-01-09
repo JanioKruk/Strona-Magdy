@@ -132,18 +132,18 @@ body {
 				&:hover .dropdown-desktop__box {
 					display: flex;
 				}
-				&:hover .dropdown-desktop__item {
-					animation: dropDownItemsAnimation 0.1s both;
-				}
-				&:hover .dropdown-desktop__item:nth-child(2) {
-					animation-delay: 0.2s;
-				}
-				&:hover .dropdown-desktop__item:nth-child(3) {
-					animation-delay: 0.3s;
-				}
-				&:hover .dropdown-desktop__item:nth-child(4) {
-					animation-delay: 0.4s;
-				}
+				// &:hover .dropdown-desktop__item {
+				// 	animation: dropDownItemsAnimation 0.1s both;
+				// }
+				// &:hover .dropdown-desktop__item:nth-child(2) {
+				// 	animation-delay: 0.1s;
+				// }
+				// &:hover .dropdown-desktop__item:nth-child(3) {
+				// 	animation-delay: 0.1s;
+				// }
+				// &:hover .dropdown-desktop__item:nth-child(4) {
+				// 	animation-delay: 0.1s;
+				// }
 
 				&__box {
 					display: none;
@@ -232,11 +232,11 @@ body {
 			padding: 1em;
 			border-radius: 15px;
 			color: c.$text-color;
-			background-image: linear-gradient(315deg, c.$main-color 0%, c.$secondary-color 95%);
+			background-image: linear-gradient(315deg, c.$main-color 0%, c.$secondary-color 75%);
 			transition: transform 1s, opacity 1s;
 			opacity: 1;
 			&-title {
-				padding-top: 6rem;
+				// padding-top: 4rem;
 				text-align: center;
 				text-transform: uppercase;
 			}

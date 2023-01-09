@@ -38,6 +38,11 @@
 .no-wrap {
 	white-space: nowrap;
 }
+.blue-color{
+	color: rgb(28, 97, 175);
+	font-weight: 700;
+	text-transform: uppercase;
+}
 @media (min-width: 768px) {
 	.section-heading {
 		font-size: 3.6rem;
@@ -60,3 +65,4 @@
 		padding: 6em 2em;
 	}
 }
+

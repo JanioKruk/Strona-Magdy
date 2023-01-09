@@ -22,7 +22,7 @@
 		.cards {
 			flex-direction: row;
 			&__box {
-				min-width: 350px;
+				min-width: 300px;
 				&:hover .cards__front {
 					transform: rotateY(-180deg);
 					opacity: 0;
@@ -34,23 +34,23 @@
 			}
 			&__info {
 				transition: transform 1s, opacity 1s;
-				opacity: 0;
-				transform: rotateY(-180deg);
+				opacity: 1;
+				// transform: rotateY(-180deg);
 				&-title {
-					font-size: 2.2rem;
+					font-size: 1.8rem;
 				}
 				&-text {
-					font-size: 1.8rem;
+					font-size: 1.6rem;
 				}
 				&-button {
 					font-size: 1.6rem;
 				}
 			}
 			&__front {
-				opacity: 1;
+				opacity: 0;
 				transition: transform 1s, opacity 1s;
 				&-title {
-					font-size: 3rem;
+					font-size: 2.5rem;
 				}
 			}
 		}
@@ -165,5 +165,8 @@
 			text-align: center;
 			font-size: 5rem;
 		}
+	}
+	.wrapper{
+		max-width: 1600px;
 	}
 }

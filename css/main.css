@@ -72,6 +72,12 @@
   white-space: nowrap;
 }
 
+.blue-color {
+  color: rgb(28, 97, 175);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .section-heading {
     font-size: 3.6rem;
@@ -222,22 +228,6 @@ body {
 .nav-desktop .dropdown-desktop:hover .dropdown-desktop__box {
   display: flex;
 }
-.nav-desktop .dropdown-desktop:hover .dropdown-desktop__item {
-  -webkit-animation: dropDownItemsAnimation 0.1s both;
-          animation: dropDownItemsAnimation 0.1s both;
-}
-.nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
-}
-.nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-}
-.nav-desktop .dropdown-desktop:hover .dropdown-desktop__item:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-}
 .nav-desktop .dropdown-desktop__box {
   display: none;
   justify-content: center;
@@ -313,12 +303,11 @@ body {
   padding: 1em;
   border-radius: 15px;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(315deg, #5d737e 0%, #b3d1ae 95%);
+  background-image: linear-gradient(315deg, #5d737e 0%, #b3d1ae 75%);
   transition: transform 1s, opacity 1s;
   opacity: 1;
 }
 .proposition .cards__info-title {
-  padding-top: 6rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -619,7 +608,7 @@ footer p {
     flex-direction: row;
   }
   .proposition .cards__box {
-    min-width: 350px;
+    min-width: 300px;
   }
   .proposition .cards__box:hover .cards__front {
     transform: rotateY(-180deg);
@@ -631,24 +620,23 @@ footer p {
   }
   .proposition .cards__info {
     transition: transform 1s, opacity 1s;
-    opacity: 0;
-    transform: rotateY(-180deg);
+    opacity: 1;
   }
   .proposition .cards__info-title {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
   }
   .proposition .cards__info-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .proposition .cards__info-button {
     font-size: 1.6rem;
   }
   .proposition .cards__front {
-    opacity: 1;
+    opacity: 0;
     transition: transform 1s, opacity 1s;
   }
   .proposition .cards__front-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .contact .social-media__facebook {
     width: 5rem;
@@ -746,5 +734,8 @@ footer p {
     padding: 0.5em;
     text-align: center;
     font-size: 5rem;
+  }
+  .wrapper {
+    max-width: 1600px;
   }
 }/*# sourceMappingURL=main.css.map */

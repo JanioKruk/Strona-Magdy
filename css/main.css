@@ -494,6 +494,9 @@ footer p {
 .offer__details-item a:hover {
   filter: invert(48%) sepia(8%) saturate(1034%) hue-rotate(156deg) brightness(88%) contrast(89%);
 }
+.offer .contact-site__img {
+  width: 3rem;
+}
 
 .section-prices .section-heading {
   color: rgb(15, 13, 13);

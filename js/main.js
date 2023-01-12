@@ -15,7 +15,7 @@ const handleDropDown = () => {
 const handleNav = () => {
 	navMobile.classList.toggle('nav-mobile--active')
 	navButton.classList.toggle('is-active')
-	
+
 	allNavItemsClick.forEach(item => {
 		item.addEventListener('click', () => {
 			navMobile.classList.remove('nav-mobile--active')
@@ -50,3 +50,4 @@ const handleDropDownAnimation = () => {
 
 dropDownButton.addEventListener('click', handleDropDown)
 navButton.addEventListener('click', handleNav)
+AOS.init({ disable: 'mobile' })

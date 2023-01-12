@@ -74,7 +74,7 @@
 }
 
 .blue-color {
-  color: rgb(58, 146, 245);
+  color: rgb(255, 255, 255);
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -266,7 +266,7 @@ body {
   width: 100%;
   height: 100%;
   color: rgb(15, 13, 13);
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Square Peg", cursive;
 }
 .header__hero-text h1 {
   font-size: 2.8rem;
@@ -376,7 +376,7 @@ body {
 
 .contact {
   position: relative;
-  background-color: rgb(90, 90, 90);
+  background-color: #333d29;
   overflow: hidden;
 }
 .contact-mobile {
@@ -582,6 +582,11 @@ footer p {
     display: block;
   }
 }
+@media (max-width: 350px) {
+  .span-off-small {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .header__hero-text h1 {
     font-size: 6rem;
@@ -612,10 +617,10 @@ footer p {
     height: 85%;
   }
   .header__hero-text h1 {
-    font-size: 8rem;
+    font-size: 15rem;
   }
   .header__hero-text p {
-    font-size: 5rem;
+    font-size: 9rem;
   }
   .proposition .cards {
     flex-direction: row;

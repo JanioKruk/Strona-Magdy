@@ -268,13 +268,16 @@ body {
   color: rgb(15, 13, 13);
   font-family: "Square Peg", cursive;
 }
+.header__hero-text--bottom {
+  font-size: 3rem;
+}
 .header__hero-text h1 {
   font-size: 5rem;
   font-weight: 200;
+  text-align: center;
 }
-.header__hero-text p {
-  font-size: 3.5rem;
-  font-weight: 200;
+.header__hero-text h1 span {
+  display: block;
 }
 
 .proposition .cards {
@@ -550,8 +553,8 @@ footer p {
   .header__hero-text h1 {
     font-size: 7rem;
   }
-  .header__hero-text p {
-    font-size: 4rem;
+  .header__hero-text--bottom {
+    font-size: 5rem;
   }
   .contact-mobile {
     display: block;
@@ -591,8 +594,8 @@ footer p {
   .header__hero-text h1 {
     font-size: 9rem;
   }
-  .header__hero-text p {
-    font-size: 5rem;
+  .header__hero-text--bottom {
+    font-size: 6rem;
   }
   .proposition .cards {
     flex-direction: row;
@@ -619,8 +622,8 @@ footer p {
   .header__hero-text h1 {
     font-size: 15rem;
   }
-  .header__hero-text p {
-    font-size: 9rem;
+  .header__hero-text--bottom {
+    font-size: 10rem;
   }
   .proposition .cards {
     flex-direction: row;

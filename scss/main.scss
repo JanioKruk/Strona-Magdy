@@ -192,14 +192,16 @@ body {
 		// text-shadow: 3px 3px 15px c.$black-color;
 		// font-family: 'Gloria Hallelujah', cursive;
 		font-family: 'Square Peg', cursive;
-
+		&--bottom {
+			font-size: 3rem;
+		}
 		h1 {
 			font-size: 5rem;
 			font-weight: 200;
-		}
-		p {
-			font-size: 3.5rem;
-			font-weight: 200;
+			text-align: center;
+			span {
+				display: block;
+			}
 		}
 	}
 }

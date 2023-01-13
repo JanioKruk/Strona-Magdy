@@ -270,11 +270,13 @@ body {
 }
 .header__hero-text--bottom {
   font-size: 3rem;
+  display: block;
 }
 .header__hero-text h1 {
   font-size: 5rem;
   font-weight: 200;
   text-align: center;
+  display: block;
 }
 .header__hero-text h1 span {
   display: block;

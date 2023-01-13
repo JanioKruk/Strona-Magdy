@@ -176,7 +176,7 @@ body {
 .header {
 	&__hero-img {
 		height: 75vh;
-		background-image: url('../img/Hero_img.png');
+		background-image: url('../img/Hero_img.webp');
 		background-size: cover;
 		background-position: center;
 		background-position-y: bottom;
@@ -261,16 +261,16 @@ body {
 					font-weight: 700;
 				}
 			}
-			&--first{
+			&--first {
 				background-color: c.$first-card-color;
 			}
-			&--second{
+			&--second {
 				background-color: c.$second-card-color;
 			}
-			&--third{
+			&--third {
 				background-color: c.$third-card-color;
 			}
-			&--fourth{
+			&--fourth {
 				background-color: c.$fourth-card-color;
 			}
 		}

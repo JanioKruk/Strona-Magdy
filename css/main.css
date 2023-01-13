@@ -253,7 +253,7 @@ body {
 
 .header__hero-img {
   height: 75vh;
-  background-image: url("../img/Hero_img.png");
+  background-image: url("../img/Hero_img.webp");
   background-size: cover;
   background-position: center;
   background-position-y: bottom;
